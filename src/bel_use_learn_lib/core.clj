@@ -1,4 +1,5 @@
 (ns bel-use-learn-lib.core
+  [:require [bel-learn-lib.core :as bel]]
   (:gen-class))
 
 ; HOW to use the lib
@@ -13,4 +14,4 @@
 (defn -main
   "just calling the lib..."
   []
-  (bel-learn-lib.core/test-the-lib))
+  (bel/test-the-lib))
