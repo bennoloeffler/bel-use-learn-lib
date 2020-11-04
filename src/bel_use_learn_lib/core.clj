@@ -2,6 +2,8 @@
   [:require [bel-learn-lib.core :as bel]]
   (:gen-class))
 
+; This is the DEMO...
+
 ; HOW to use the lib
 ; ;;;;;;;;;;;;;;;;;;
 ; Make a dir in the project
